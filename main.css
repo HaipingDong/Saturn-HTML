@@ -36,30 +36,31 @@ h1{
 
    color: #eee;
    text-shadow: -2.5px -2.5px 1px gold, 2.5px 2.5px 1px #000;
-   font-family: Calibri;
+   font-family: Calibri;sans-serif;
    text-align: center;
    font-size: 80px;
     
 }
 h3{
-   font-family: Calibri;
+   font-family: Calibri;sans-serif;
     color:#eee;
     line-height: 120px;
     font-size: 40px;
     padding-left: 20px;
+    padding-top: 20px;
 }
 p{ color: #d4d4d4;
-   font-family: Calibri;
-   font-size: 35px;
-    padding:20px 15px;
+   font-family: Calibri;sans-serif;
+   font-size: 34px;
+    padding:20px 15px 20px 15px;
 
 }
 nav a, nav a:link, nav a:visited{
     text-decoration: none;
     color: gold;
-    font-family: Calibri;
+    font-family: Calibri;sans-serif;
     Font-size: 20px;
-    padding: 0 34px 0 16px;
+    padding: 0 45px 0 46px;
 
 }
 nav a:hover, a:active{
@@ -67,13 +68,15 @@ nav a:hover, a:active{
 }
 nav ul{
     background: #444;
-    line-height: 50px
+    line-height: 50px;
+    
 
 }
 nav li{
 
     display: inline;
-    font-family: Calibri;
+    font-family: Calibri;sans-serif;
+    font-size: 50px;
     
     
 
@@ -94,6 +97,7 @@ nav li{
 #main{
     border-top: 12px solid #666;
     background-color: #444;
+    padding: 20px 15px 20px 15px;
     
     
    
@@ -101,12 +105,13 @@ nav li{
 }
 #footer{
     background-color: #333;
-    padding-bottom: 38px
+    padding:20px 15px 20px 15px;
 
 }
 #footer p{
     color: #999;
     font-size: 15px;
+    
 
 }
 #footer a{
