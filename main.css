@@ -35,30 +35,31 @@ html, body{
 h1{
 
    color: #eee;
-   text-shadow: 1px -1px 1px #000, -1px 1px 1px gold;
-   font-family: sans-serif;
+   text-shadow: -2.5px -2.5px 1px gold, 2.5px 2.5px 1px #000;
+   font-family: Calibri;
    text-align: center;
-   font-size: 70px;
+   font-size: 80px;
     
 }
 h3{
-   font-family: sans-serif;
+   font-family: Calibri;
     color:#eee;
-    line-height: 140px;
-    font-size: 30px
+    line-height: 120px;
+    font-size: 40px;
+    padding-left: 20px;
 }
 p{ color: #d4d4d4;
-   font-family: sans-serif;
-   font-size: 23px;
+   font-family: Calibri;
+   font-size: 35px;
     padding:20px 15px;
 
 }
 nav a, nav a:link, nav a:visited{
     text-decoration: none;
     color: gold;
-    font-family: sans-serif;
+    font-family: Calibri;
     Font-size: 20px;
-    padding: 36px;
+    padding: 0 34px 0 16px;
 
 }
 nav a:hover, a:active{
@@ -66,20 +67,22 @@ nav a:hover, a:active{
 }
 nav ul{
     background: #444;
+    line-height: 50px
 
 }
 nav li{
 
     display: inline;
     font-family: Calibri;
-    line-height: 50px
+    
     
 
 }
 #wrapper{
-    background: #222;
+    
     border-left: 200px solid #222;
     border-right: 200px solid #222;
+    width:1300px;
 
 }
 #masthead{
@@ -98,6 +101,7 @@ nav li{
 }
 #footer{
     background-color: #333;
+    padding-bottom: 38px
 
 }
 #footer p{
