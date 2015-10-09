@@ -59,7 +59,7 @@ p{ color: #d4d4d4;
 nav a, nav a:link, nav a:visited{
     text-decoration: none;
     color: gold;
-    font-family: Calibri;sans-serif;
+    font-family: Calibri,sans-serif;
     Font-size: 20px;
     padding: 0 45px 0 46px;
 
@@ -76,7 +76,7 @@ nav ul{
 nav li{
 
     display: inline;
-    font-family: Calibri;sans-serif;
+    font-family: Calibri,sans-serif;
     font-size: 50px;
     
     
